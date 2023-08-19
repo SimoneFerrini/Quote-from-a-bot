@@ -1,6 +1,3 @@
-//my API key
-// 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
-
 
 
 //variabili -------------------------------------------
@@ -8,7 +5,9 @@ let characters = document.querySelectorAll(".character");
 let loader = document.querySelector(".loading");
 const API_URL = "https://api.openai.com/v1/chat/completions";
 const MODEL = "gpt-3.5-turbo";
-const API_KEY = "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";
+//la API key è stata bloccata/annullata, per procedere inserisci la tua
+const API_KEY = "";
+
 const modal = document.querySelector(".modal");
 const modalContent = document.querySelector(".modal-content");
 const modalClose = document.querySelector(".modal-close");
